@@ -1,0 +1,33 @@
+{
+    "name": "simple-photon",
+    "parameters": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "da45ca45-ba1a-4b09-8dd8-cc47f6761eb0": {
+            "environment": "02ee3890-72f1-4b77-b31b-e18373165bc5",
+            "file_path": "run-photon.py",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    161.5,
+                    206
+                ]
+            },
+            "parameters": {
+                "url": "https://spele.nl"
+            },
+            "title": "run-photon",
+            "uuid": "da45ca45-ba1a-4b09-8dd8-cc47f6761eb0"
+        }
+    },
+    "uuid": "22e8d7d7-373e-4d24-979c-49d3f75224f4",
+    "version": "1.0.0"
+}
